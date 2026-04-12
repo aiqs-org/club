@@ -37,7 +37,7 @@ jobs:
           
           export default defineConfig({
             plugins: [react()],
-            base: '/club/',
+            base: '/',
           });" > vite.config.js
 
       - name: Build React app
