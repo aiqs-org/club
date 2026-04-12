@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/club/',  // Make sure this matches your repo name exactly with slashes
+  base: '/',  // Make sure this matches your repo name exactly with slashes
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
