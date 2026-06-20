@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="text-center md:text-right">
-            <p className="text-sm text-gray-400">Boston, MA 02115</p>
+            <p className="text-sm text-gray-400">Boston, MA </p>
             <p className="text-sm text-gray-400 mt-2">© {new Date().getFullYear()} AIQS. All rights reserved.</p>
           </div>
         </div>
