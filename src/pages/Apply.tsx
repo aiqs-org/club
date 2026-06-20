@@ -3,7 +3,7 @@ import PageHeader from '../components/PageHeader';
 import Button from '../components/Button';
 
 const Apply: React.FC = () => {
-  const applicationFormUrl = "https://forms.gle/xfrDEdAXHE8ZVVyx5";
+  const applicationFormUrl = "";
   
   return (
     <div className="min-h-screen">
@@ -17,17 +17,17 @@ const Apply: React.FC = () => {
             </div>
             
             <p className="text-lg md:text-xl leading-relaxed mb-6">
-              We are accepting for roles focused on leveraging specific skill sets to contribute to our vision
+              We are currently closed to external applicants
             </p>
             
             <p className="text-lg leading-relaxed mb-8">
-             Subsequent details will be provided to applicants
+             This will remain in place for the foreseeable future
             </p>
           </div>
           
           <div className="mt-12 flex justify-center">
             <Button 
-              label="APPLY NOW" 
+              label="This Button Does Nothing" 
               variant="primary" 
               size="lg" 
               href={applicationFormUrl}
