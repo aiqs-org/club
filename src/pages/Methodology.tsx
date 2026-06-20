@@ -3,7 +3,7 @@ import PageHeader from '../components/PageHeader';
 import ShapeIcon from '../components/ShapeIcon';
 
 const Methodology: React.FC = () => {
-  const steps = [
+//   const steps = [
   //   {
   //     number: 1,
   //     title: "Conceptual",
@@ -24,7 +24,7 @@ const Methodology: React.FC = () => {
   //     title: "Operational",
   //     description: "Moderating: assessing performance of projects and maintaining or terminating"
   //   }
-  // ];
+  ];
   
   return (
     <div className="min-h-screen">
